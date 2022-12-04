@@ -3,7 +3,7 @@ import {
   ButtonHTMLAttributes,
   ComponentType,
   FC, HTMLAttributes, ReactNode } from "react"
-import { LoadingDots } from "@components/ui"
+import { LoadingDots } from "components/ui"
 import s from "./Button.module.css"
 import cn from "classnames"
 

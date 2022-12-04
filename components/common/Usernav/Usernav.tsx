@@ -1,8 +1,8 @@
 import { FC } from "react"
 import s from "./Usernav.module.css"
 import Link from "next/link"
-import { Bag as Cart, Heart } from "@components/icons"
-import { useUI } from "@components/ui/context"
+import { Bag as Cart, Heart } from "components/icons"
+import { useUI } from "components/ui/context"
 import useCart from "@framework/cart/use-cart"
 import { LineItem } from "@common/types/cart"
 

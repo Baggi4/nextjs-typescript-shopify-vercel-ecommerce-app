@@ -1,13 +1,13 @@
 
 
-import { Layout } from "@components/common"
+import { Layout } from "components/common"
 import { getConfig } from "@framework/api/config"
 import {
   getAllProductsPaths,
   getProduct
 } from "@framework/product"
 import { GetStaticPaths, GetStaticPropsContext, InferGetStaticPropsType } from "next"
-import { ProductView } from "@components/product"
+import { ProductView } from "components/product"
 
 // fetch all of the products slugs
 export const getStaticPaths: GetStaticPaths = async () => {

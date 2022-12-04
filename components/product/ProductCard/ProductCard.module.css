@@ -4,6 +4,7 @@
   max-height: 100% !important;
 
   &:hover {
+    @apply opacity-90;
     & .productBg:before {
       transform: scale(0.99);
     }
@@ -46,25 +47,26 @@
 }
 
 .productTag {
-  @apply absolute top-0 left-0 z-20;
+  @apply relative justify-center items-center z-20 shadow-md;
 
   & > * {
     font-size: 2rem;
     letter-spacing: 0.4px;
+    background-color: #FFF8DC;
+    border-right: 1px solid black;
   }
 }
 
 .productTitle {
-  @apply font-bold;
+  @apply font-bold text-black ;
   line-height: 2.2em;
 
   & span {
-    @apply py-4 px-6 bg-primary;
+    @apply py-4 px-6;
     box-decoration-break: clone;
   }
 }
 
 .productPrice {
-  @apply bg-primary pb-4 pt-2 px-6 font-semibold text-sm;
-  letter-spacing: 0.4px;
+  @apply pt-2 px-6 font-semibold text-gray-500;
 }

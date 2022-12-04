@@ -16,8 +16,8 @@ const ProductCard: FC<Props> = ({product, variant = "simple"}) => {
       <a className={s.root}>
         { variant === "slim" ?
           <>
-            <div className="inset-0 flex items-center justify-center absolute z-20">
-              <span className="bg-black text-white p-3 font-bold text-xl">
+            <div className="inset-0 flex flex-col-reverse items-center absolute z-20 ">
+              <span className=" text-black p-3 font-bold text-2xl shadow-sm">
                 {product.name}
               </span>
             </div>
@@ -39,9 +39,9 @@ const ProductCard: FC<Props> = ({product, variant = "simple"}) => {
                 <h3 className={s.productTitle}>
                   <span>{product.name}</span>
                 </h3>
-                <span className={s.productPrice}>
+                {/* <span className={s.productPrice}>
                   {product.price.value} {product.price.currencyCode}
-                </span>
+                </span> */}
               </div>
               { product.images && (
                 <Image

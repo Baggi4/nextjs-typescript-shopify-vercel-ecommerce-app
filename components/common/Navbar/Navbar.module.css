@@ -6,13 +6,11 @@
 
 .link {
   @apply text-accents-6 leading-6 font-medium transition;
-
   &:hover {
     @apply text-accents-9;
   }
 }
 
-
 .logo {
-  @apply text-2xl font-bold;
+  @apply w-8 h-8 text-purple-600;
 }

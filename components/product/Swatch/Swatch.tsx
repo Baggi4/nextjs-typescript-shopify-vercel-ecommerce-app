@@ -1,7 +1,7 @@
 
 import { FC } from "react"
 import s from "./Swatch.module.css"
-import { Check } from '@components/icons'
+import { Check } from 'components/icons'
 import cn from "classnames"
 import { isDark } from "@lib/color"
 

@@ -1,7 +1,7 @@
 
-import { Heart } from '@components/icons'
-import { Layout } from '@components/common'
-import { Container } from '@components/ui'
+import { Heart } from 'components/icons'
+import { Layout } from 'components/common'
+import { Container } from 'components/ui'
 
 export default function Wishlist() {
   const isEmpty = true

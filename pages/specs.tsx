@@ -1,7 +1,7 @@
 import React from 'react'
-import { Heart } from '@components/icons'
-import { Layout } from '@components/common'
-import { Container } from '@components/ui'
+import { Heart } from 'components/icons'
+import { Layout } from 'components/common'
+import { Container } from 'components/ui'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
