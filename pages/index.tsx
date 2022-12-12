@@ -2,7 +2,7 @@
 import type { InferGetStaticPropsType } from "next"
 import { getAllProducts } from "@framework/product"
 import { getConfig } from "@framework/api/config"
-import { Layout } from "components/common"
+import { Layout, HeroSlider } from "components/common"
 import { ProductCard } from "components/product"
 import { Grid, Hero, Marquee } from "components/ui"
 
@@ -24,6 +24,7 @@ export default function Home({
 
   return (
     <>
+    <HeroSlider />
       <Hero
        headline="Buy your Social Media Audience"
        description="Let's Start with 10k,50k, 100k+ Followers accounts..."

@@ -8,6 +8,10 @@ module.exports = withFrameworkConfig({
   i18n: {
     locales: ["en-US", "es"],
     defaultLocale: "en-US"
+  },
+  images: {
+    domains: ["res.cloudinary.com"],
+    unoptimized: true,
   }
 })
 

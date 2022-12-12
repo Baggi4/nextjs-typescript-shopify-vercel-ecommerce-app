@@ -24,6 +24,11 @@
       "@lib/*": ["lib/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/common/Hero/HeroSlider.tsx"
+  ],
   "exclude": ["node_modules"]
 }
